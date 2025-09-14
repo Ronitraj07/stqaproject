@@ -5,7 +5,7 @@
     "semester": "3",
     "div": "3B17",
     "department": "Mathematics",
-    "institute": "Parul Institute of Management",
+    "institute": "Parul Institute of Pharmacy",
     "enrollmentno": "2509140900001"
   },
   {
@@ -32,7 +32,7 @@
     "semester": "5",
     "div": "5B1",
     "department": "Physics",
-    "institute": "Parul Institute of Technology",
+    "institute": "Parul Institute of Pharmacy",
     "enrollmentno": "2509140800001"
   },
   {
@@ -41,7 +41,7 @@
     "semester": "7",
     "div": "7B1",
     "department": "Civil Engineering",
-    "institute": "Parul Institute of Technology",
+    "institute": "Parul Institute of Engineering",
     "enrollmentno": "2509140500001"
   },
   {
@@ -50,7 +50,7 @@
     "semester": "6",
     "div": "6B1",
     "department": "Chemical Engineering",
-    "institute": "Parul Institute of Technology",
+    "institute": "Parul Institute of Engineering",
     "enrollmentno": "2509140600001"
   },
   {
@@ -59,7 +59,7 @@
     "semester": "4",
     "div": "4B1",
     "department": "Mechanical Engineering",
-    "institute": "Parul Institute of Technology",
+    "institute": "Parul Institute of Engineering",
     "enrollmentno": "2509140400001"
   },
   {
@@ -68,7 +68,7 @@
     "semester": "7",
     "div": "7B1",
     "department": "Physics",
-    "institute": "Parul Institute of Management",
+    "institute": "Parul Institute of Pharmacy",
     "enrollmentno": "2509140800002"
   },
   {
@@ -104,7 +104,7 @@
     "semester": "7",
     "div": "7C1",
     "department": "Management",
-    "institute": "Parul Institute of Engineering",
+    "institute": "Parul Institute of Management",
     "enrollmentno": "2509141000001"
   },
   {
@@ -113,7 +113,7 @@
     "semester": "4",
     "div": "4B1",
     "department": "Computer Science",
-    "institute": "Parul Institute of Management",
+    "institute": "Parul Institute of Technology",
     "enrollmentno": "2509140200001"
   },
   {
@@ -131,7 +131,7 @@
     "semester": "3",
     "div": "3A17",
     "department": "Physics",
-    "institute": "Parul Institute of Management",
+    "institute": "Parul Institute of Pharmacy",
     "enrollmentno": "2509140800003"
   },
   {
@@ -149,7 +149,7 @@
     "semester": "8",
     "div": "8B1",
     "department": "Biotechnology",
-    "institute": "Parul Institute of Management",
+    "institute": "Parul Institute of Pharmacy",
     "enrollmentno": "2509140700002"
   },
   {
@@ -158,7 +158,7 @@
     "semester": "1",
     "div": "1A1",
     "department": "Electronics & Communication",
-    "institute": "Parul Institute of Technology",
+    "institute": "Parul Institute of Engineering",
     "enrollmentno": "2509140300002"
   },
   {
@@ -167,7 +167,7 @@
     "semester": "7",
     "div": "7B1",
     "department": "Mechanical Engineering",
-    "institute": "Parul Institute of Management",
+    "institute": "Parul Institute of Engineering",
     "enrollmentno": "2509140400003"
   },
   {
@@ -194,7 +194,7 @@
     "semester": "2",
     "div": "2C1",
     "department": "Physics",
-    "institute": "Parul Institute of Technology",
+    "institute": "Parul Institute of Pharmacy",
     "enrollmentno": "2509140800004"
   },
   {
@@ -212,7 +212,7 @@
     "semester": "3",
     "div": "3A1",
     "department": "Electronics & Communication",
-    "institute": "Parul Institute of Pharmacy",
+    "institute": "Parul Institute of Engineering",
     "enrollmentno": "2509140300003"
   },
   {
@@ -221,7 +221,7 @@
     "semester": "2",
     "div": "2C1",
     "department": "Physics",
-    "institute": "Parul Institute of Engineering",
+    "institute": "Parul Institute of Pharmacy",
     "enrollmentno": "2509140800005"
   },
   {
@@ -230,7 +230,7 @@
     "semester": "5",
     "div": "5B1",
     "department": "Civil Engineering",
-    "institute": "Parul Institute of Technology",
+    "institute": "Parul Institute of Engineering",
     "enrollmentno": "2509140500002"
   },
   {
@@ -239,7 +239,7 @@
     "semester": "8",
     "div": "8A1",
     "department": "Civil Engineering",
-    "institute": "Parul Institute of Technology",
+    "institute": "Parul Institute of Engineering",
     "enrollmentno": "2509140500003"
   },
   {
@@ -248,7 +248,7 @@
     "semester": "3",
     "div": "3C1",
     "department": "Mechanical Engineering",
-    "institute": "Parul Institute of Management",
+    "institute": "Parul Institute of Engineering",
     "enrollmentno": "2509140400004"
   },
   {
@@ -257,7 +257,7 @@
     "semester": "4",
     "div": "4C1",
     "department": "Management",
-    "institute": "Parul Institute of Engineering",
+    "institute": "Parul Institute of Management",
     "enrollmentno": "2509141000003"
   },
   {
@@ -266,7 +266,7 @@
     "semester": "7",
     "div": "7C1",
     "department": "Management",
-    "institute": "Parul Institute of Engineering",
+    "institute": "Parul Institute of Management",
     "enrollmentno": "2509141000004"
   },
   {
@@ -275,7 +275,7 @@
     "semester": "2",
     "div": "2B1",
     "department": "Mathematics",
-    "institute": "Parul Institute of Engineering",
+    "institute": "Parul Institute of Pharmacy",
     "enrollmentno": "2509140900004"
   },
   {
@@ -284,7 +284,7 @@
     "semester": "2",
     "div": "2A1",
     "department": "Computer Science",
-    "institute": "Parul Institute of Engineering",
+    "institute": "Parul Institute of Technology",
     "enrollmentno": "2509140200002"
   },
   {
@@ -302,7 +302,7 @@
     "semester": "1",
     "div": "1B1",
     "department": "Chemical Engineering",
-    "institute": "Parul Institute of Management",
+    "institute": "Parul Institute of Engineering",
     "enrollmentno": "2509140600003"
   },
   {
@@ -311,7 +311,7 @@
     "semester": "4",
     "div": "4C1",
     "department": "Computer Science",
-    "institute": "Parul Institute of Management",
+    "institute": "Parul Institute of Technology",
     "enrollmentno": "2509140200003"
   },
   {
@@ -320,7 +320,7 @@
     "semester": "1",
     "div": "1B1",
     "department": "Civil Engineering",
-    "institute": "Parul Institute of Technology",
+    "institute": "Parul Institute of Engineering",
     "enrollmentno": "2509140500004"
   },
   {
@@ -329,7 +329,7 @@
     "semester": "4",
     "div": "4B1",
     "department": "Civil Engineering",
-    "institute": "Parul Institute of Pharmacy",
+    "institute": "Parul Institute of Engineering",
     "enrollmentno": "2509140500005"
   },
   {
@@ -338,7 +338,7 @@
     "semester": "6",
     "div": "6A1",
     "department": "Physics",
-    "institute": "Parul Institute of Engineering",
+    "institute": "Parul Institute of Pharmacy",
     "enrollmentno": "2509140800006"
   },
   {
@@ -356,8 +356,7 @@
     "semester": "2",
     "div": "2C1",
     "department": "Chemical Engineering",
-    "institute": "Parul Institute of Pharmacy",
+    "institute": "Parul Institute of Engineering",
     "enrollmentno": "2509140600004"
   }
 ]
-
