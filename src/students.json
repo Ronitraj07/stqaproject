@@ -1,0 +1,363 @@
+[
+  {
+    "rollno": "101",
+    "name": "Farhan Mehta",
+    "semester": "3",
+    "div": "3B17",
+    "department": "Mathematics",
+    "institute": "Parul Institute of Management",
+    "enrollmentno": "2509140900001"
+  },
+  {
+    "rollno": "102",
+    "name": "Priya Patel",
+    "semester": "5",
+    "div": "5B1",
+    "department": "Information Technology",
+    "institute": "Parul Institute of Technology",
+    "enrollmentno": "2509140100001"
+  },
+  {
+    "rollno": "103",
+    "name": "Kiran Bakshi",
+    "semester": "6",
+    "div": "6A1",
+    "department": "Information Technology",
+    "institute": "Parul Institute of Technology",
+    "enrollmentno": "2509140100002"
+  },
+  {
+    "rollno": "104",
+    "name": "Simran Sharma",
+    "semester": "5",
+    "div": "5B1",
+    "department": "Physics",
+    "institute": "Parul Institute of Technology",
+    "enrollmentno": "2509140800001"
+  },
+  {
+    "rollno": "105",
+    "name": "Priya Kapoor",
+    "semester": "7",
+    "div": "7B1",
+    "department": "Civil Engineering",
+    "institute": "Parul Institute of Technology",
+    "enrollmentno": "2509140500001"
+  },
+  {
+    "rollno": "106",
+    "name": "Vijay Reddy",
+    "semester": "6",
+    "div": "6B1",
+    "department": "Chemical Engineering",
+    "institute": "Parul Institute of Technology",
+    "enrollmentno": "2509140600001"
+  },
+  {
+    "rollno": "107",
+    "name": "Farhan Kapoor",
+    "semester": "4",
+    "div": "4B1",
+    "department": "Mechanical Engineering",
+    "institute": "Parul Institute of Technology",
+    "enrollmentno": "2509140400001"
+  },
+  {
+    "rollno": "108",
+    "name": "Rahul Kapoor",
+    "semester": "7",
+    "div": "7B1",
+    "department": "Physics",
+    "institute": "Parul Institute of Management",
+    "enrollmentno": "2509140800002"
+  },
+  {
+    "rollno": "109",
+    "name": "Amit Kumar",
+    "semester": "5",
+    "div": "5C1",
+    "department": "Electronics & Communication",
+    "institute": "Parul Institute of Engineering",
+    "enrollmentno": "2509140300001"
+  },
+  {
+    "rollno": "110",
+    "name": "Amit Patel",
+    "semester": "6",
+    "div": "6A1",
+    "department": "Chemical Engineering",
+    "institute": "Parul Institute of Engineering",
+    "enrollmentno": "2509140600002"
+  },
+  {
+    "rollno": "111",
+    "name": "Amit Gupta",
+    "semester": "8",
+    "div": "8B1",
+    "department": "Biotechnology",
+    "institute": "Parul Institute of Pharmacy",
+    "enrollmentno": "2509140700001"
+  },
+  {
+    "rollno": "112",
+    "name": "Rohan Mehta",
+    "semester": "7",
+    "div": "7C1",
+    "department": "Management",
+    "institute": "Parul Institute of Engineering",
+    "enrollmentno": "2509141000001"
+  },
+  {
+    "rollno": "113",
+    "name": "Kiran Kapoor",
+    "semester": "4",
+    "div": "4B1",
+    "department": "Computer Science",
+    "institute": "Parul Institute of Management",
+    "enrollmentno": "2509140200001"
+  },
+  {
+    "rollno": "114",
+    "name": "Simran Kumar",
+    "semester": "8",
+    "div": "8C1",
+    "department": "Mathematics",
+    "institute": "Parul Institute of Pharmacy",
+    "enrollmentno": "2509140900002"
+  },
+  {
+    "rollno": "115",
+    "name": "Sneha Gupta",
+    "semester": "3",
+    "div": "3A17",
+    "department": "Physics",
+    "institute": "Parul Institute of Management",
+    "enrollmentno": "2509140800003"
+  },
+  {
+    "rollno": "116",
+    "name": "Farhan Kumar",
+    "semester": "3",
+    "div": "3B1",
+    "department": "Mechanical Engineering",
+    "institute": "Parul Institute of Engineering",
+    "enrollmentno": "2509140400002"
+  },
+  {
+    "rollno": "117",
+    "name": "Priya Singh",
+    "semester": "8",
+    "div": "8B1",
+    "department": "Biotechnology",
+    "institute": "Parul Institute of Management",
+    "enrollmentno": "2509140700002"
+  },
+  {
+    "rollno": "118",
+    "name": "Sneha Joshi",
+    "semester": "1",
+    "div": "1A1",
+    "department": "Electronics & Communication",
+    "institute": "Parul Institute of Technology",
+    "enrollmentno": "2509140300002"
+  },
+  {
+    "rollno": "119",
+    "name": "Simran Singh",
+    "semester": "7",
+    "div": "7B1",
+    "department": "Mechanical Engineering",
+    "institute": "Parul Institute of Management",
+    "enrollmentno": "2509140400003"
+  },
+  {
+    "rollno": "120",
+    "name": "Amit Kapoor",
+    "semester": "4",
+    "div": "4B1",
+    "department": "Management",
+    "institute": "Parul Institute of Management",
+    "enrollmentno": "2509141000002"
+  },
+  {
+    "rollno": "121",
+    "name": "Farhan Joshi",
+    "semester": "3",
+    "div": "3C1",
+    "department": "Information Technology",
+    "institute": "Parul Institute of Technology",
+    "enrollmentno": "2509140100003"
+  },
+  {
+    "rollno": "122",
+    "name": "Priya Reddy",
+    "semester": "2",
+    "div": "2C1",
+    "department": "Physics",
+    "institute": "Parul Institute of Technology",
+    "enrollmentno": "2509140800004"
+  },
+  {
+    "rollno": "123",
+    "name": "Kiran Mehta",
+    "semester": "3",
+    "div": "3B1",
+    "department": "Mathematics",
+    "institute": "Parul Institute of Pharmacy",
+    "enrollmentno": "2509140900003"
+  },
+  {
+    "rollno": "124",
+    "name": "Farhan Kapoor",
+    "semester": "3",
+    "div": "3A1",
+    "department": "Electronics & Communication",
+    "institute": "Parul Institute of Pharmacy",
+    "enrollmentno": "2509140300003"
+  },
+  {
+    "rollno": "125",
+    "name": "Anjali Gupta",
+    "semester": "2",
+    "div": "2C1",
+    "department": "Physics",
+    "institute": "Parul Institute of Engineering",
+    "enrollmentno": "2509140800005"
+  },
+  {
+    "rollno": "126",
+    "name": "Kiran Kumar",
+    "semester": "5",
+    "div": "5B1",
+    "department": "Civil Engineering",
+    "institute": "Parul Institute of Technology",
+    "enrollmentno": "2509140500002"
+  },
+  {
+    "rollno": "127",
+    "name": "Kiran Kumar",
+    "semester": "8",
+    "div": "8A1",
+    "department": "Civil Engineering",
+    "institute": "Parul Institute of Technology",
+    "enrollmentno": "2509140500003"
+  },
+  {
+    "rollno": "128",
+    "name": "Simran Joshi",
+    "semester": "3",
+    "div": "3C1",
+    "department": "Mechanical Engineering",
+    "institute": "Parul Institute of Management",
+    "enrollmentno": "2509140400004"
+  },
+  {
+    "rollno": "129",
+    "name": "Amit Sharma",
+    "semester": "4",
+    "div": "4C1",
+    "department": "Management",
+    "institute": "Parul Institute of Engineering",
+    "enrollmentno": "2509141000003"
+  },
+  {
+    "rollno": "130",
+    "name": "Simran Kumar",
+    "semester": "7",
+    "div": "7C1",
+    "department": "Management",
+    "institute": "Parul Institute of Engineering",
+    "enrollmentno": "2509141000004"
+  },
+  {
+    "rollno": "131",
+    "name": "Anjali Sharma",
+    "semester": "2",
+    "div": "2B1",
+    "department": "Mathematics",
+    "institute": "Parul Institute of Engineering",
+    "enrollmentno": "2509140900004"
+  },
+  {
+    "rollno": "132",
+    "name": "Vijay Gupta",
+    "semester": "2",
+    "div": "2A1",
+    "department": "Computer Science",
+    "institute": "Parul Institute of Engineering",
+    "enrollmentno": "2509140200002"
+  },
+  {
+    "rollno": "133",
+    "name": "Vijay Sharma",
+    "semester": "8",
+    "div": "8A1",
+    "department": "Mechanical Engineering",
+    "institute": "Parul Institute of Engineering",
+    "enrollmentno": "2509140400005"
+  },
+  {
+    "rollno": "134",
+    "name": "Kiran Joshi",
+    "semester": "1",
+    "div": "1B1",
+    "department": "Chemical Engineering",
+    "institute": "Parul Institute of Management",
+    "enrollmentno": "2509140600003"
+  },
+  {
+    "rollno": "135",
+    "name": "Amit Mehta",
+    "semester": "4",
+    "div": "4C1",
+    "department": "Computer Science",
+    "institute": "Parul Institute of Management",
+    "enrollmentno": "2509140200003"
+  },
+  {
+    "rollno": "136",
+    "name": "Sneha Kumar",
+    "semester": "1",
+    "div": "1B1",
+    "department": "Civil Engineering",
+    "institute": "Parul Institute of Technology",
+    "enrollmentno": "2509140500004"
+  },
+  {
+    "rollno": "137",
+    "name": "Sneha Kapoor",
+    "semester": "4",
+    "div": "4B1",
+    "department": "Civil Engineering",
+    "institute": "Parul Institute of Pharmacy",
+    "enrollmentno": "2509140500005"
+  },
+  {
+    "rollno": "138",
+    "name": "Priya Gupta",
+    "semester": "6",
+    "div": "6A1",
+    "department": "Physics",
+    "institute": "Parul Institute of Engineering",
+    "enrollmentno": "2509140800006"
+  },
+  {
+    "rollno": "139",
+    "name": "Simran Joshi",
+    "semester": "3",
+    "div": "3C1",
+    "department": "Mathematics",
+    "institute": "Parul Institute of Pharmacy",
+    "enrollmentno": "2509140900005"
+  },
+  {
+    "rollno": "140",
+    "name": "Rohan Reddy",
+    "semester": "2",
+    "div": "2C1",
+    "department": "Chemical Engineering",
+    "institute": "Parul Institute of Pharmacy",
+    "enrollmentno": "2509140600004"
+  }
+]
+
