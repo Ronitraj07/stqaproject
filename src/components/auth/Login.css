@@ -1,0 +1,228 @@
+.login-page {
+  display: flex;
+  min-height: 100vh;
+  background: #f0f2f5;
+}
+
+.login-left {
+  flex: 1;
+  background: linear-gradient(135deg, #1a237e 0%, #283593 40%, #3949ab 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.login-branding {
+  color: white;
+  text-align: center;
+  max-width: 400px;
+}
+
+.login-logo {
+  font-size: 80px;
+  margin-bottom: 20px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.login-branding h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0 0 8px;
+  letter-spacing: 0.5px;
+}
+
+.login-branding p {
+  font-size: 1.1rem;
+  opacity: 0.85;
+  margin: 0 0 40px;
+}
+
+.login-features {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+}
+
+.feature-item {
+  font-size: 1rem;
+  opacity: 0.9;
+  padding: 8px 16px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+}
+
+.login-right {
+  width: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+  background: #f0f2f5;
+}
+
+.login-card {
+  background: white;
+  border-radius: 16px;
+  padding: 40px 36px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-header {
+  margin-bottom: 28px;
+}
+
+.login-header h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a237e;
+  margin: 0 0 6px;
+}
+
+.login-header p {
+  color: #666;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.login-error {
+  padding: 10px 14px;
+  background: #ffebee;
+  border: 1px solid #ef9a9a;
+  border-radius: 8px;
+  color: #c62828;
+  font-size: 0.9rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.form-group input {
+  padding: 12px 14px;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  background: #fafafa;
+  color: #333;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  outline: none;
+}
+
+.form-group input:focus {
+  border-color: #3949ab;
+  box-shadow: 0 0 0 3px rgba(57, 73, 171, 0.12);
+  background: white;
+}
+
+.login-btn {
+  padding: 13px;
+  background: linear-gradient(135deg, #1a237e, #3949ab);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.1s;
+  font-family: inherit;
+  margin-top: 4px;
+}
+
+.login-btn:hover:not(:disabled) {
+  opacity: 0.92;
+  transform: translateY(-1px);
+}
+
+.login-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.login-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.demo-section {
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid #eee;
+}
+
+.demo-title {
+  font-size: 0.85rem;
+  color: #888;
+  text-align: center;
+  margin: 0 0 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.demo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.demo-btn {
+  padding: 9px 12px;
+  border: none;
+  border-radius: 7px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.1s;
+  font-family: inherit;
+  color: white;
+}
+
+.demo-btn:hover:not(:disabled) {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}
+
+.demo-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.demo-btn--admin { background: #e74c3c; }
+.demo-btn--principal { background: #8e44ad; }
+.demo-btn--faculty { background: #2980b9; }
+.demo-btn--student { background: #27ae60; }
+.demo-btn--finance { background: #f39c12; }
+.demo-btn--admissions { background: #16a085; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .login-left { display: none; }
+  .login-right { width: 100%; }
+  .login-card { padding: 32px 24px; }
+}
+
+@media (max-width: 400px) {
+  .demo-grid { grid-template-columns: 1fr; }
+}
