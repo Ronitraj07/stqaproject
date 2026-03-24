@@ -1,58 +1,95 @@
-import React, { useState } from 'react';
-import students from './students.json';
+import React, { useState, useEffect } from 'react';
+import { getCurrentUser, logout } from './utils/auth';
+import Login from './components/auth/Login';
+import Sidebar from './components/layout/Sidebar';
+import Header from './components/layout/Header';
+
+// Dashboards
+import AdminDashboard from './components/dashboards/AdminDashboard';
+import PrincipalDashboard from './components/dashboards/PrincipalDashboard';
+import FacultyDashboard from './components/dashboards/FacultyDashboard';
+import StudentDashboard from './components/dashboards/StudentDashboard';
+import FinanceDashboard from './components/dashboards/FinanceDashboard';
+import AdmissionsDashboard from './components/dashboards/AdmissionsDashboard';
+
+// Modules
+import UserManagement from './components/modules/UserManagement';
+import AcademicManagement from './components/modules/AcademicManagement';
+import FinanceManagement from './components/modules/FinanceManagement';
+import AdmissionsPortal from './components/modules/AdmissionsPortal';
+import Reports from './components/modules/Reports';
+import Notifications from './components/modules/Notifications';
+import StudentLookup from './components/modules/StudentLookup';
+
+import './components/layout/Layout.css';
 import './App.css';
 
-function App() {
-  const [roll, setRoll] = useState('');
-  const [student, setStudent] = useState(null);
-  const [searchPerformed, setSearchPerformed] = useState(false);
+const DASHBOARD_MAP = {
+  admin: AdminDashboard,
+  principal: PrincipalDashboard,
+  faculty: FacultyDashboard,
+  student: StudentDashboard,
+  finance: FinanceDashboard,
+  admissions: AdmissionsDashboard,
+};
 
-  function handleSubmit(e) {
-    e.preventDefault();
-    const foundStudent =
-      students.find(
-        s => s.rollno === roll.trim() || s.enrollmentno === roll.trim()
-      ) || null;
-    setStudent(foundStudent);
-    setSearchPerformed(true);
+const MODULE_MAP = {
+  users: UserManagement,
+  academic: AcademicManagement,
+  finance: FinanceManagement,
+  admissions: AdmissionsPortal,
+  reports: Reports,
+  notifications: Notifications,
+  'student-lookup': StudentLookup,
+};
+
+function App() {
+  const [user, setUser] = useState(() => getCurrentUser());
+  const [currentPage, setCurrentPage] = useState('dashboard');
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+
+  useEffect(() => {
+    if (!user) setCurrentPage('dashboard');
+  }, [user]);
+
+  function handleLogin(loggedInUser) {
+    setUser(loggedInUser);
+    setCurrentPage('dashboard');
   }
 
+  function handleLogout() {
+    logout();
+    setUser(null);
+  }
+
+  if (!user) {
+    return <Login onLogin={handleLogin} />;
+  }
+
+  const DashboardComponent = DASHBOARD_MAP[user.role];
+  const ModuleComponent = currentPage !== 'dashboard' ? MODULE_MAP[currentPage] : null;
+  const PageComponent = ModuleComponent || DashboardComponent;
+
   return (
-    <main style={{display:'flex', flexDirection:'column', alignItems:'center', minHeight:'100vh'}}>
-      <section className="main-card" aria-label="Student Info Search Glass Panel">
-        <h1 style={{textAlign:'center', margin:'0 0 24px 0'}}>Student Information Lookup</h1>
-        <form onSubmit={handleSubmit} aria-label="Student search form" className="search-form">
-          <label htmlFor="rollinput"></label>
-          <div className="input-button-group">
-            <input
-              id="rollinput"
-              type="text"
-              value={roll}
-              onChange={e => setRoll(e.target.value)}
-              aria-label="Roll Number or Enrollment Number input"
-              placeholder="Enter Roll No."
-              required
-            />
-            <button type="submit" aria-label="Search">Search</button>
-          </div>
-        </form>
-        {student && (
-          <div className="student-info-card" aria-live="polite" role="region" aria-labelledby="student-info-title" tabIndex={-1}>
-            <h2 id="student-info-title" className="student-info-header">Student Details</h2>
-            <div className="student-info-row"><span className="label">Name:</span> <span>{student.name}</span></div>
-            <div className="student-info-row"><span className="label">Roll No:</span> <span>{student.rollno}</span></div>
-            <div className="student-info-row"><span className="label">Enrollment No:</span> <span>{student.enrollmentno}</span></div>
-            <div className="student-info-row"><span className="label">Semester:</span> <span>{student.semester}</span></div>
-            <div className="student-info-row"><span className="label">Division:</span> <span>{student.div}</span></div>
-            <div className="student-info-row"><span className="label">Department:</span> <span>{student.department}</span></div>
-            <div className="student-info-row"><span className="label">Institute:</span> <span>{student.institute}</span></div>
-          </div>
-        )}
-        {!student && searchPerformed && (
-          <div className="not-found" aria-live="assertive">No student found</div>
-        )}
-      </section>
-    </main>
+    <div className="app-layout">
+      <Sidebar
+        user={user}
+        currentPage={currentPage}
+        onNavigate={setCurrentPage}
+        collapsed={sidebarCollapsed}
+        onToggle={() => setSidebarCollapsed(c => !c)}
+      />
+      <div className={`main-content${sidebarCollapsed ? ' main-content--collapsed' : ''}`}>
+        <Header
+          user={user}
+          currentPage={currentPage}
+          onLogout={handleLogout}
+        />
+        <main className="page-content">
+          {PageComponent && <PageComponent user={user} />}
+        </main>
+      </div>
+    </div>
   );
 }
 
